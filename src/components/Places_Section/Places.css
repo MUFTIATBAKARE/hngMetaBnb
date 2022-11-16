@@ -1,0 +1,27 @@
+.container8{
+    width: 100%;
+    margin: 0;
+}
+#places{
+    margin: 20px 10px 10px 15px;
+}
+#places_pic{
+    width: 325px;
+    height: 372px;
+    padding: 10px;
+}
+@media screen and (max-width: 768px){
+    #places{
+        margin: 20px 10px 10px 45px;
+    }
+    #places_pic{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 480px){
+    #places{
+        margin: 20px 10px 10px 75px;
+    }
+    
+}

@@ -1,0 +1,114 @@
+.container2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 250px 50px 40px;
+    width: 100%;
+}
+.footerlist ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #F1F3F9;
+}
+#listhead{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+#white_metabnb_logo{
+    width: 233px;
+    height: 40px;
+}
+.footer_icons{
+    display: block;
+}
+#social_Icon{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 100px 0 40px 0;
+    width: 30px;
+}
+.moreIcon{
+    margin-top: 15px;
+    font-size: 12px;
+}
+#copyright p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px){
+    .container2{
+        padding: 30px 150px 50px 35px;
+        width: 100%;
+    }
+    .footerlist ul li{
+        font-size: 10px;
+    }
+    #listhead{
+        font-size: 12px;
+    }
+    #copyright p{
+        font-size: 12px;
+    }
+    #socialmobile_Icon2{
+        display: none;
+    }
+    #mobilecopyright2 p{
+        display: none;
+    }
+    #white_metabnb_logo{
+        width: 120px;
+        height: 40px;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .container2{
+        display: block;
+        padding: 20px 200px 50px 35px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footerlist ul li{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 10px;
+        margin: 12px -50px;
+        font-weight: 400;
+        font-size: 10px;
+        color: #F1F3F9;
+    }
+    #listhead{
+        font-size: 14px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+    #socialmobile_Icon2{
+        display: inline;
+        color: #FFFFFF;
+        font-size: 12px;
+        margin: 20px 0 40px -10px;
+        width: 40px;
+}
+    #mobilecopyright2 p{
+        display: inline;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    #white_metabnb_logo{
+        width: 120px;
+        height: 40px;
+    }
+    #social_Icon{
+        display: none;
+    }
+    #copyright p{
+        display: none;
+    }
+}

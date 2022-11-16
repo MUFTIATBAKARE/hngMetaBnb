@@ -1,0 +1,201 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 25px 40px;
+}
+#metabnb_logo{
+    position: left;
+    margin-right: 80px;
+}
+.metabnb_logo{
+    width: 20%;
+}
+.click1{
+    width: 20%;
+}
+.headerlist{
+    width: 60%;
+    margin-right: -90px;
+}
+.headerlist ul li {
+    display: inline;
+    padding: 25px;
+    width: 70%;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#click{
+    text-decoration: none;
+    color: #434343;
+}
+#click1{
+    position: right;
+    text-decoration: none;
+    width: 80%;
+    margin-left: 20px;
+    padding: 12px;
+    background-color: #A02279;
+    color: #FFFFFF;
+    border: 1px solid #A02279;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hamburger{
+    display: none;
+}
+.mobileMenu{
+    display: none;
+}
+.mobileMenu-bottom{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .container1{
+        width: 100%;
+        margin: 25px 65px;
+    }
+    .headerlist ul li{
+        display: none;
+    }
+    #click1{
+        display: none;
+    }
+    #metabnb_logo{
+        position: left;
+        margin-right: 0;
+    }
+    .metabnb_logo{
+        width: 65%;
+    }
+    .hamburger{
+        display: block;
+        width: 35%;
+        font-size: 20px;
+        position: right;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+        top: -100vh;
+        left: 0;
+        justify-content: space-between;
+        position: absolute;
+        background-color: lightgrey;
+        background-size:cover;
+        background-attachment: fixed;
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
+    .mobileMenu.active{
+        top: 80px;
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.6s ease;
+    }
+    .mobileList{
+        margin: 1rem o;
+    }
+    .mobileMenu li{
+        margin: 0 1rem;
+        border-bottom: 1px solid #434343;
+        padding: 1.2rem 1rem;
+        list-style-type: none;
+    }
+    .mobileMenu-bottom{
+        display: block;
+        width: 100%;
+    }
+    #click9{
+        text-decoration: none;
+    }
+    #click7{
+    text-decoration: none;
+    width: 90%;
+    margin: 0 55px 30px 55px;
+    padding: 12px;
+    background-color: #A02279;
+    color: #FFFFFF;
+    border: 1px solid #A02279;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    }
+}
+@media screen and (max-width: 480px){
+    .container1{
+        width: 100%;
+        margin: 25px 35px;
+    }
+    .headerlist ul li{
+        display: none;
+    }
+    #click1{
+        display: none;
+    }
+    .metabnb_logo{
+        width: 80%;
+    }
+    .hamburger{
+        display: block;
+        width: 20%;
+        font-size: 20px;
+        position: right;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+        top: -100vh;
+        left: 0;
+        justify-content: space-between;
+        position: absolute;
+        background-color: lightgrey;
+        opacity: 0.5;
+        transition: all 0.5s ease;
+    }
+    .mobileMenu.active{
+        top: 80px;
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.6s ease;
+    }
+    .mobileList{
+        margin: 1rem o;
+    }
+    .mobileMenu li{
+        margin: 0 1rem;
+        border-bottom: 1px solid #434343;
+        padding: 1.2rem 1rem;
+        list-style-type: none;
+    }
+    .mobileMenu-bottom{
+        display: block;
+        width: 100%;
+    }
+    #click9{
+        text-decoration: none;
+    }
+    #click7{
+    text-decoration: none;
+    width: 85%;
+    margin: 55px 120px 55px 55px;
+    padding: 12px;
+    background-color: #A02279;
+    color: #FFFFFF;
+    border: 1px solid #A02279;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    }
+}
